@@ -4,10 +4,10 @@ file_path = '300_merged_300_utt082_300_utt086.npy'
 data = np.load(file_path)
 
 print(f"Data loaded from {file_path}. Shape: {data.shape}")
-from google.colab import f
+from google.colab import drive
 drive.mount('/content/drive')
 floc1='/content/drive/MyDrive/desp/'
-
+# errr yy
 import numpy as np
 from scipy.stats import entropy, kurtosis
 
